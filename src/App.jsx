@@ -24,6 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Universidades />} />
         <Route path="/Contador" element={<Contador />} />
+        <Route path="*" element={<Universidades />} />
       </Routes>
     </main>
   );
